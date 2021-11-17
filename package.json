@@ -1,0 +1,19 @@
+{
+  "name": "tsilenz.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsilenzio/tsilenz.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsilenzio/tsilenz.io/issues"
+  },
+  "homepage": "https://github.com/tsilenzio/tsilenz.io#readme"
+}
