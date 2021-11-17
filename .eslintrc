@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "brace-style": ["error", "1tbs"],
+        "radix": ["error", "as-needed"],
+        "no-console": ["error", { "allow": ["error", "info", "trace", "warn"] }],
+        "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }]
+      }
+}
